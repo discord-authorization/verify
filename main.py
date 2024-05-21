@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Replace these with your actual Client ID, Client Secret, and Redirect URI
 CLIENT_ID = "1242183096804053003"
 CLIENT_SECRET = "xOifdVdR2AdyEbKNgIwhBJqxrYKa07ny"
-REDIRECT_URI = "http://yourwebsite.com/callback"
+REDIRECT_URI = "https://discord-authorization.github.io/verify/"
 
 @app.route("/")
 def index():
